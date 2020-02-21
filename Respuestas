@@ -1,0 +1,9 @@
+
+Con la solucion propuesta nuenca se va "pisar" el procesado de los recurso con la siguiente llamada al endpoint y es parcialmente consigurable con los parametros del endpoint definidos en el archivo properties.
+
+El principal problema que puedo ver es el de volumetria de datos y el tiempo que puede llevar procesar los cambios en los recursos disponibles que aunque nunca se solaparia con la invocacion a la nueva llamada puede que en el conjunto (proceso + delay configurado) se den unos tiempo inviables.
+
+Las soluciones serian o acotar el "marco" de busqueda de los recursos o implementar una ejecuacion multi-threads en el procesado de los recursos.
+
+
+
